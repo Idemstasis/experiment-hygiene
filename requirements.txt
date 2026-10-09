@@ -1,0 +1,11 @@
+# Minimum versions needed to run the toys in this repository.
+#
+# NOTE: use the CPU-ONLY build of torch (no CUDA). The toys are CPU-only by
+# design, so a CUDA wheel is unnecessary and much larger. Install the CPU wheel
+# first, e.g.
+#   pip install --index-url https://download.pytorch.org/whl/cpu torch==2.13.0
+# then install the remaining pins below (or use your platform's CPU channel).
+
+torch==2.13.0
+transformers==5.13.1
+numpy==2.5.1
