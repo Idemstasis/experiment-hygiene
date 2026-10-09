@@ -1,5 +1,7 @@
 # experiment-hygiene
 
+English | [简体中文](README.zh-CN.md)
+
 **A short, runnable checklist for catching metrics that lie — and a discipline
 for retracting honestly once they do.**
 
