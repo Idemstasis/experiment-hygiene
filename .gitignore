@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+
+# Tooling / editors
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.idea/
+.vscode/
+*.swp
+
+# Local models and downloaded weights (keep the repo code-only)
+models/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.gguf
+
+# Secrets and local backups (never commit these)
+.env
+*.env
+*.bak
+*.bak_*
+*.zip
+
+# Scratch output captured while drafting the docs
+_out*.txt
+_probe*.py
+_verify*.py
+_check*.py
+_dryrun*.py
